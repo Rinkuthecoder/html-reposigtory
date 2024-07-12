@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        table {
+            width: 500px;
+            margin: auto;
+        }
+        table caption {
+            font-size: x-large;
+            background-color: #110535;
+            color: white;
+            padding: 30px;
+            word-spacing: 10px;
+            text-decoration: underline;
+        }
+        table, td, th, tr {
+            /* border: 1px solid black; */
+            border-collapse: collapse;
+            
+        }
+        tr:hover {
+            opacity: 0.6;
+            
+        }
+        td {
+            height: 50px;
+            color: rgb(194, 171, 171);
+            padding: 10px;
+        }
+        td input{
+            border: none;
+            padding: 20px;
+            width: 100%;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Registration Form</caption><br>
+        <colgroup>
+            <col span="1" style="background-color: navy; color:white" />
+            <col span="1" style="background-color: rgb(143, 143, 200); color:white" />
+        </colgroup>
+        <tr>
+            <td style="width: 150px;">
+                <label for="">First Name</label>
+            </td>
+            <td> <input type="text" id="fname" placeholder="first name"></td>
+        </tr>
+        <tr>
+            <td><label for="">Last Name</label></td>
+            <td><input type="text" id="lname" placeholder="last name"></td>
+        </tr>
+        <tr>
+            <td><label for="">father Name</label></td>
+            <td><input type="text" id="fname" placeholder="father name"></td>
+        </tr>
+        <tr>
+            <td><label for="">mother Name</label></td>
+            <td><input type="text" id="mname" placeholder=" mother name"></td>
+        </tr>
+        <tr>
+            <td><label for="">Phone no</label></td>
+            <td> <input type="number" id="phone" placeholder="phone no"></td>
+        </tr>
+        <tr>
+            <td><label for="">Address</label></td>
+            <td><input type="text" id="add" placeholder="address"></td>
+        </tr>
+        <tr>
+            <td><label for=""> Pincode</label></td>
+            <td><input type="number" id="num" placeholder="pincode"></td>
+        </tr>
+        <tr>
+            <td><label for="">State</label></td>
+            <td><input type="text" id="state" placeholder="state"></td>
+        </tr>
+        <tr>
+            <td><label for="">date</label></td>
+            <td><input type="date" id="date" placeholder="date"></td>
+        </tr>
+        <tr>
+            <td><label for="">Email</label></td>
+            <td><input type="email" id="mail" placeholder="email id"></td>
+        </tr>
+    </table>
+</body>
+</html>
